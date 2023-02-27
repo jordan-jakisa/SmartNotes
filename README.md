@@ -7,15 +7,15 @@ I'm keeping my code here on GitHub so that I can easily track my progress and sh
 # Installation
 To run this code on your local machine, you'll need to have Python 3 installed along with Django. You can download Python from the official website (https://www.python.org/downloads/) and install Django using pip:
 
-'''python
+```python
 pip install Django
-'''
+```
 
 Once you have the necessary software installed, you can clone this repository using Git:
 
-'''python
+```python
 git clone https://github.com/jordan-jakisa/SmartNotes
-'''
+```
 
 # Feedback
 I welcome any feedback or suggestions you may have about the code in this repository. 
