@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>SmartNotes!</title>
-</head>
-<body>
+{% extends "base.html" %}{% block content %}
 <h1>Welcome to SmartNotes</h1>
 <p>Today is {{today}}</p>
-</body>
-</html>
+<a class="btn btn-primary" href="{% url 'notes.list' %}">Check out these notes!</a>
+{% endblock %}
