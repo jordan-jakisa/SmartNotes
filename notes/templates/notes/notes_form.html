@@ -6,10 +6,11 @@
         {{ form }}
         <button type="submit" class="my-5 btn btn-primary">Submit</button>
     </form>
+
 {% if form.errors %}
-<div class="alert alert-danger my-5">
-    {{ form.errors.title.as_text }}
-</div>
+    <div class="alert alert-danger my-5">
+        {{ form.errors.title.as_text }}
+    </div>
 {% endif %}
 
 {% endblock %}
